@@ -1,6 +1,8 @@
 use anchor_lang::prelude::*;
 
-declare_id!("H9Le1F13Y9NsnARcX16GQMxHXXfUcxVZUyiBarap6E2a"); //this is the public key of the smart contract itself - should be the same as the "solana_hello_world" under [programs.devnet] in `Anchor.toml`
+declare_id!("4hsocDfvofGq5CgSvj8zVVn5Bz3ExycABQKVQNZYeMjs"); 
+//this is the public key i.e. "program-id" of the smart contract itself - should be the same as the "solana_hello_world" under [programs.devnet] in `Anchor.toml`
+//get this after the smart contract is being deployed
 
 #[program]
 pub mod solana_hello_world {
